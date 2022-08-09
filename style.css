@@ -1,28 +1,24 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
 header {
   display: flex;
-  flex-direction:column;  
+  flex-direction: column;
   align-items: center;
   position: fixed;
   z-index: 999px;
   left: 0;
   top: 0;
   width: 100%;
-  background-color:black;
-
+  background-color: black;
 }
 
-
-.nomeLiniker{
+.nomeLiniker {
   color: #ffffff;
   font-family: 'Neonderthaw', cursive;
   font-size: 400%;
-
- 
 }
 
 .Banners {
@@ -35,20 +31,15 @@ header {
 }
 
 .banneresquerda {
-  height: 350px
-
+  height: 350px;
 }
 
 .bannermeio {
-  
-  height: 350px
-
-
+  height: 350px;
 }
 
-.bannerdireita{
+.bannerdireita {
   height: 350px;
-
 }
 
 main {
@@ -64,30 +55,27 @@ main {
 
 .conteudos {
   text-align: justify;
-  font-size:medium;
+  font-size: medium;
   padding-bottom: 20pt;
 }
-footer {
-  display:flex;
-  height: 100px;
-  flex-direction: inline;
-  background-color: black;
-  align-items:center;
-  justify-content: center;
-  
-}
-.copy
- {
-  color: white;
-  font-size: 20pt;
- }
 
- .referencias {
+.referencias {
   width: 1250px;
-
 }
 
 .referencias ul {
   padding-left: 24pt;
-
+}
+footer {
+  display: flex;
+  height: 100px;
+  flex-direction: inline;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+.copy {
+  color: white;
+  font-size: 10pt;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
