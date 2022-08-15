@@ -22,12 +22,12 @@ header {
 }
 
 .Banners {
-  padding-top: 20pt;
+  padding-top: 0%;
   display: flex;
   flex-direction: inline;
   align-items: center;
-  gap: 40pt;
-  padding-bottom: 40pt;
+  gap: 3%;
+  padding-bottom: 5%;
 }
 
 .banneresquerda {
@@ -47,28 +47,43 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 50pt;
-  padding-top: 100pt;
-  margin-left: 30pt;
-  margin-right: 30pt;
+  padding-bottom: 5%;
+  padding-top: 10%;
 }
 
 .conteudos {
+  height: 10%;
   text-align: justify;
-  font-size: medium;
-  padding-bottom: 20pt;
+  font-size: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-image: url(./img/linikeralt.jpg);
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.lista {
+  list-style: circle;
 }
 
 .referencias {
-  width: 1250px;
+  padding-top: 6%;
+  padding-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  font-family: 'Roboto Mono';
+  font-size: 20px;
 }
 
 .referencias ul {
-  padding-left: 24pt;
+  padding-left: 32pt;
 }
 footer {
   display: flex;
-  height: 100px;
+  height: 70px;
   flex-direction: inline;
   background-color: black;
   align-items: center;
@@ -76,6 +91,14 @@ footer {
 }
 .copy {
   color: white;
-  font-size: 10pt;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  font-size: 15pt;
+}
+
+#titulofilme {
+  font-size: 32px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  letter-spacing: -4px;
+  font-weight: 800;
 }
