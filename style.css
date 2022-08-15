@@ -28,23 +28,23 @@ header {
   flex-direction: inline;
   align-items: center;
   width: 100%;
-  gap: 3%;
+  gap: 5%;
   padding-bottom: 5%;
 }
 
 .banneresquerda {
   height: 300px;
-  width: 50%;
+  width: 40%;
 }
 
 .bannermeio {
   height: 300px;
-  width: 100%;
+  width: 80%;
 }
 
 .bannerdireita {
   height: 300px;
-  width: 50%;
+  width: 40%;
 }
 
 main {
