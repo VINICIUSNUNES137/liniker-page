@@ -8,7 +8,7 @@ header {
   flex-direction: column;
   align-items: center;
   position: fixed;
-  z-index: 999px;
+  /*z-index: 999px;*/
   left: 0;
   top: 0;
   width: 100%;
@@ -19,6 +19,7 @@ header {
   color: #ffffff;
   font-family: 'Neonderthaw', cursive;
   font-size: 400%;
+  padding-left: 5%;
 }
 
 .Banners {
@@ -26,20 +27,24 @@ header {
   display: flex;
   flex-direction: inline;
   align-items: center;
+  width: 100%;
   gap: 3%;
   padding-bottom: 5%;
 }
 
 .banneresquerda {
-  height: 350px;
+  height: 300px;
+  width: 50%;
 }
 
 .bannermeio {
-  height: 350px;
+  height: 300px;
+  width: 100%;
 }
 
 .bannerdireita {
-  height: 350px;
+  height: 300px;
+  width: 50%;
 }
 
 main {
@@ -64,6 +69,10 @@ main {
   font-family: 'Roboto Mono', monospace;
 }
 
+.divconteudos {
+  width: 100%;
+}
+
 .lista {
   list-style: circle;
 }
@@ -84,6 +93,7 @@ main {
 footer {
   display: flex;
   height: 70px;
+  width: 100%;
   flex-direction: inline;
   background-color: black;
   align-items: center;
