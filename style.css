@@ -8,48 +8,38 @@ header {
   flex-direction: column;
   align-items: center;
   position: fixed;
-  /*z-index: 999px;*/
+  z-index: 999px;
   left: 0;
   top: 0;
   width: 100%;
   background-color: black;
 }
 
-a {
-    text-decoration: none;
-
-}
-
 .nomeLiniker {
   color: #ffffff;
   font-family: 'Neonderthaw', cursive;
   font-size: 400%;
-  padding-left: 5%;
 }
 
 .Banners {
-  padding-top: 0%;
+  padding-top: 20pt;
   display: flex;
   flex-direction: inline;
   align-items: center;
-  width: 100%;
-  gap: 5%;
-  padding-bottom: 5%;
+  gap: 40pt;
+  padding-bottom: 75px;
 }
 
 .banneresquerda {
-  height: 500px;
-  width: 40%;
+  height: 350px;
 }
 
 .bannermeio {
-  height: 500px;
-  width: 80%;
+  height: 350px;
 }
 
 .bannerdireita {
-  height: 500px;
-  width: 40%;
+  height: 350px;
 }
 
 main {
@@ -57,25 +47,21 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 5%;
-  padding-top: 10%;
+  padding-bottom: 50pt;
+  padding-top: 100pt;
 }
 
 .conteudos {
-  height: 10%;
+  height: 340px;
   text-align: justify;
-  font-size: 100%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  font-size: 15pt;
+  padding-top: 25px;
+  padding-bottom: 20pt;
+  padding-left: 100pt;
+  padding-right: 100pt;
   background-image: url(./img/linikeralt.jpg);
   color: white;
   font-family: 'Roboto Mono', monospace;
-}
-
-.divconteudos {
-  width: 100%;
 }
 
 .lista {
@@ -83,22 +69,22 @@ main {
 }
 
 .referencias {
-  padding-top: 6%;
-  padding-bottom: 3%;
+  padding-top: 70px;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 1250px;
   font-family: 'Roboto Mono';
   font-size: 20px;
+  font-weight: 600;
 }
 
 .referencias ul {
-  padding-left: 5%;
+  padding-left: 32pt;
 }
 footer {
   display: flex;
   height: 70px;
-  width: 100%;
   flex-direction: inline;
   background-color: black;
   align-items: center;
