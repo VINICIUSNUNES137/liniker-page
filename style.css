@@ -1,6 +1,12 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  flex-direction: column;
 }
 
 header {
@@ -8,7 +14,6 @@ header {
   flex-direction: column;
   align-items: center;
   position: fixed;
-  z-index: 999px;
   left: 0;
   top: 0;
   width: 100%;
@@ -18,28 +23,28 @@ header {
 .nomeLiniker {
   color: #ffffff;
   font-family: 'Neonderthaw', cursive;
-  font-size: 400%;
+  font-size: 3.5vw;
 }
 
 .Banners {
-  padding-top: 20pt;
+  padding-top: 5%;
   display: flex;
   flex-direction: inline;
   align-items: center;
-  gap: 40pt;
-  padding-bottom: 75px;
+  gap: 3%;
+  padding-bottom: 5%;
 }
 
 .banneresquerda {
-  height: 350px;
+  height: 20%;
 }
 
 .bannermeio {
-  height: 350px;
+  height: 30%;
 }
 
 .bannerdireita {
-  height: 350px;
+  height: 10%;
 }
 
 main {
@@ -52,13 +57,13 @@ main {
 }
 
 .conteudos {
-  height: 340px;
+  height: 100%;
   text-align: justify;
-  font-size: 15pt;
+  font-size: 1vw;
   padding-top: 25px;
   padding-bottom: 20pt;
-  padding-left: 100pt;
-  padding-right: 100pt;
+  padding-left: 15%;
+  padding-right: 15%;
   background-image: url(./img/linikeralt.jpg);
   color: white;
   font-family: 'Roboto Mono', monospace;
@@ -102,4 +107,61 @@ footer {
   padding-top: 10px;
   letter-spacing: -4px;
   font-weight: 800;
+}
+
+
+@media (max-width: 960px) {
+
+
+
+
+
+
+  .banneresquerda {
+    display: none;
+  }
+  
+  .bannermeio {
+    width: 100%;
+  }
+
+  .bannerdireita {
+    display: none;
+  }
+
+  .conteudos {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    height: 100%;
+    font-size: 2.1vh;
+  }
+
+  header {
+    width: 100vw;
+
+  }
+  
+  .nomeLiniker {
+    font-size: 10vh;
+  }
+
+  .referencias {
+    padding-top: 70px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .copy {
+    color: white;
+    text-align: justify;
+    font-size: 3vw;
+  }
+
 }
